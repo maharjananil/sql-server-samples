@@ -1,3 +1,4 @@
+
 --Enabling sp_execute_external_script to run R scripts in SQL Server 2016 and installing package in order to run the Script TelcoChurn-Main.sql and TelcoChurn-Operationalize.sql sucessfully.
 
 --SP_EXECUTE_EXTERNAL_SCRIPT is a stored procedure that execute provided script as argument on external script to a provided language (in this case R language). To enable normal function of this external stored procedure, you must have administrator access to your SQL Server instance in order to run sp_configure command (and set following configuration):
